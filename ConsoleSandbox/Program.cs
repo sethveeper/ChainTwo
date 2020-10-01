@@ -44,6 +44,17 @@ namespace ConsoleSandbox
             }
             // End of For loop
             GetCont();
+
+            Console.WriteLine("Or, if you prefer, we can port it to a regular array first:");
+            int[] intArray = intChain.ToArray();
+
+            foreach(int item in intArray)
+            {
+                Console.WriteLine("- " + item);
+            }
+            // End of Foreach loop
+            GetCont();
+
         }
         // End of Main method
 
