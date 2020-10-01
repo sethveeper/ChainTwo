@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleSandbox/1.0.0": {
+        "dependencies": {
+          "ChainTwo": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleSandbox.dll": {}
+        }
+      },
+      "ChainTwo/1.0.0": {
+        "runtime": {
+          "ChainTwo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleSandbox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChainTwo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

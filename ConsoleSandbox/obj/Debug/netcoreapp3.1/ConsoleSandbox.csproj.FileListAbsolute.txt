@@ -1,0 +1,16 @@
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\bin\Debug\netcoreapp3.1\ConsoleSandbox.exe
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\bin\Debug\netcoreapp3.1\ConsoleSandbox.deps.json
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\bin\Debug\netcoreapp3.1\ConsoleSandbox.runtimeconfig.json
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\bin\Debug\netcoreapp3.1\ConsoleSandbox.runtimeconfig.dev.json
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\bin\Debug\netcoreapp3.1\ConsoleSandbox.dll
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\bin\Debug\netcoreapp3.1\ConsoleSandbox.pdb
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\bin\Debug\netcoreapp3.1\ChainTwo.dll
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\bin\Debug\netcoreapp3.1\ChainTwo.pdb
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\obj\Debug\netcoreapp3.1\ConsoleSandbox.csprojAssemblyReference.cache
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\obj\Debug\netcoreapp3.1\ConsoleSandbox.AssemblyInfoInputs.cache
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\obj\Debug\netcoreapp3.1\ConsoleSandbox.AssemblyInfo.cs
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\obj\Debug\netcoreapp3.1\ConsoleSandbox.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\obj\Debug\netcoreapp3.1\ConsoleSandbox.csproj.CopyComplete
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\obj\Debug\netcoreapp3.1\ConsoleSandbox.dll
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\obj\Debug\netcoreapp3.1\ConsoleSandbox.pdb
+D:\Documents\GitHub\ChainTwo\ConsoleSandbox\obj\Debug\netcoreapp3.1\ConsoleSandbox.genruntimeconfig.cache
