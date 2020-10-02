@@ -16,45 +16,33 @@ namespace ConsoleSandbox
 
             Chain<int> intChain = new Chain<int>();
 
-            for (int i = 0; i < random.Next(5, 10); i++)
+            for (int i = 0; i < random.Next(5,10); i++)
             {
                 intChain.Add(random.Next(max));
             }
             // End of For loop (Assignments)
 
             Console.WriteLine("Successfully created a Chain!");
-            Console.WriteLine("There are currently " + intChain.Length + " items in the chain!");
-            GetCont();
 
-            Console.WriteLine("We can iterate through the Chain like this:");
-            for (int i = 0; i < intChain.Length; i++)
-            {
-                intChain.Select(i);
-                Console.WriteLine("Index " + intChain.Selected.Index + ": " + intChain.Selected.ToString());
-            }
-            // End of For loop
-            GetCont();
+            PrintChain(intChain);
 
-            Console.WriteLine("Or we can iterate like this:");
-            intChain.Select(intChain.Length);
-            for (bool exit = false; !exit; exit = intChain.Iter(false))
-            {
-                Console.Write("Index " + intChain.Selected.Index + ": ");
-                Console.WriteLine(intChain.Selected.ToString());
-            }
-            // End of For loop
-            GetCont();
+            Console.WriteLine("Suppose you wanted to *remove* a value, though? Let's pick an index:");
+            int result = GetInt();
 
-            Console.WriteLine("Or, if you prefer, we can port it to a regular array first:");
-            int[] intArray = intChain.ToArray();
+            result = intChain.Remove(result);
 
-            foreach(int item in intArray)
-            {
-                Console.WriteLine("- " + item);
-            }
-            // End of Foreach loop
-            GetCont();
+            Console.WriteLine("That index had a " + result + ". And now it's gone, see?");
+            Console.WriteLine("There are now " + intChain.Length + " items in the chain!");
+            PrintChain(intChain);
 
+            Console.WriteLine("We can also insert values at an arbitray point, if we like. Let's pick another index:");
+            result = GetInt();
+
+            int newValue = random.Next(max);
+            intChain.Insert(newValue, result);
+
+            Console.WriteLine("We added a " + newValue.ToString() + " to index " + result + ". Do you see it?");
+            PrintChain(intChain);
         }
         // End of Main method
 
@@ -65,6 +53,36 @@ namespace ConsoleSandbox
             Console.ReadKey();
         }
         // End of Get Continue method
+
+        static int GetInt()
+        {
+            int result = 0;
+            string input = "nop";
+            while (!Int32.TryParse(input, out result))
+            {
+                Console.WriteLine("Please select an integer:");
+                input = Console.ReadLine();
+            }
+            // End of While loop (Validation)
+
+            return result;
+        }
+        // End of Get Integer method
+
+        static void PrintChain(Chain<int> chain, int start = 0)
+        {
+            chain.Select(start);
+            Console.WriteLine("Iterating through " + chain.Length + " links:");
+            for (bool exit = false; !exit; exit = chain.Iter())
+            {
+                Console.Write("Index " + chain.Selected.Index + ": ");
+                Console.WriteLine(chain.Selected.ToString());
+            }
+            // End of For loop
+
+            GetCont();
+        }
+        // End of Print Chain method
     }
     // End of Program Class
 }

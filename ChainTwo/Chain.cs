@@ -7,6 +7,7 @@
  */
 
 using System;
+using System.Collections.Generic;
 
 namespace ChainTwo
 {
@@ -50,11 +51,9 @@ namespace ChainTwo
         public void Add(T value)
         { // Adds a new link.
 
-
             Link<T> newLink = new Link<T>(value);
             // Here's the new link in question!
 
-            
             if (this.head == null)
             { // First, we'll check to see if the list is empty.
                 this.head = newLink;
