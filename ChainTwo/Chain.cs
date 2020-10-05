@@ -43,6 +43,20 @@ namespace ChainTwo
         }
         // End of Default Constructor
 
+        public Chain(T[] array)
+        {
+            this.head = null;
+            this.foot = null;
+            this.selected = null;
+            this.length = 0;
+
+            foreach(T item in array)
+            {
+                this.Add(item);
+            }
+        }
+        // End of Array Constructor
+
         #endregion
         // End of Constructors
 

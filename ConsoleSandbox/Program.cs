@@ -14,35 +14,81 @@ namespace ConsoleSandbox
             GetCont();
             // Start!
 
-            Chain<int> intChain = new Chain<int>();
+            Chain<int> chain = new Chain<int>();
 
             for (int i = 0; i < random.Next(5,10); i++)
             {
-                intChain.Add(random.Next(max));
+                chain.Add(random.Next(max));
             }
             // End of For loop (Assignments)
 
             Console.WriteLine("Successfully created a Chain!");
 
-            PrintChain(intChain);
+            GetCont();
 
-            Console.WriteLine("Suppose you wanted to *remove* a value, though? Let's pick an index:");
-            int result = GetInt();
+            Console.WriteLine("We can iterate through it like this:");
+            for (int i = 0; i < chain.Length; i++)
+            {
+                int output = chain.Select(i);
+                Console.WriteLine("Index " + i.ToString() + ": " + output.ToString());
+            }
+            // End of For loop
 
-            result = intChain.Remove(result);
+            GetCont();
 
-            Console.WriteLine("That index had a " + result + ". And now it's gone, see?");
-            Console.WriteLine("There are now " + intChain.Length + " items in the chain!");
-            PrintChain(intChain);
+            Console.WriteLine("Or like this:");
+            chain.Select(chain.Length);
+            for (bool exit = false; !exit; exit = chain.Iter(false))
+            {
+                Console.Write("Index " + chain.Selected.Index + ": ");
+                Console.WriteLine(chain.Selected.ToString());
+            }
+            // End of For loop
 
-            Console.WriteLine("We can also insert values at an arbitray point, if we like. Let's pick another index:");
-            result = GetInt();
+            GetCont();
 
-            int newValue = random.Next(max);
-            intChain.Insert(newValue, result);
+            Console.WriteLine("We can add values freely, as well; go ahead, enter an integer:");
+            int addon = GetInt();
+            chain.Add(addon);
 
-            Console.WriteLine("We added a " + newValue.ToString() + " to index " + result + ". Do you see it?");
-            PrintChain(intChain);
+            Console.WriteLine("See it there on the end?");
+            for (int i = 0; i < chain.Length; i++)
+            {
+                int output = chain.Select(i);
+                Console.WriteLine("Index " + i.ToString() + ": " + output.ToString());
+            }
+            // End of For loop
+
+            GetCont();
+
+            Console.WriteLine("What if we have a Chain, but want an array? We can easily do that!");
+
+            int[] array = chain.ToArray();
+
+            foreach(int item in array)
+            {
+                Console.WriteLine("- " + item.ToString());
+            }
+            // End of foreach
+
+            GetCont();
+
+            Console.WriteLine("What about the opposite? We can also make a Chain out of an array!");
+
+            int[] newArray = { 3, 6, 9, 12, 15, 18 };
+            Chain<int> newChain = new Chain<int>(newArray);
+
+            for (int i = 0; i < chain.Length; i++)
+            {
+                int output = chain.Select(i);
+                Console.WriteLine("Index " + i.ToString() + ": " + output.ToString());
+            }
+            // End of For loop
+
+            GetCont();
+
+            Console.WriteLine("That's all I've got for today. Check out the source code at this link:");
+            Console.WriteLine("https://github.com/sethveeper/ChainTwo");
         }
         // End of Main method
 
@@ -68,21 +114,6 @@ namespace ConsoleSandbox
             return result;
         }
         // End of Get Integer method
-
-        static void PrintChain(Chain<int> chain, int start = 0)
-        {
-            chain.Select(start);
-            Console.WriteLine("Iterating through " + chain.Length + " links:");
-            for (bool exit = false; !exit; exit = chain.Iter())
-            {
-                Console.Write("Index " + chain.Selected.Index + ": ");
-                Console.WriteLine(chain.Selected.ToString());
-            }
-            // End of For loop
-
-            GetCont();
-        }
-        // End of Print Chain method
     }
     // End of Program Class
 }
