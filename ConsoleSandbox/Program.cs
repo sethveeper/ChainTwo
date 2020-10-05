@@ -61,6 +61,21 @@ namespace ConsoleSandbox
 
             GetCont();
 
+            Console.WriteLine("We can also edit any index. Go ahead, pick one; we'll replace it with 100.");
+            addon = GetInt();
+
+            chain.Edit(addon, 100);
+            Console.WriteLine("Do you see it? Indexes that are 'out of bounds' get put on the appropriate end, instead.");
+            for (int i = 0; i < chain.Length; i++)
+            {
+                int output = chain.Select(i);
+                Console.WriteLine("Index " + i.ToString() + ": " + output.ToString());
+            }
+            // End of For loop
+
+
+            GetCont();
+
             Console.WriteLine("What if we have a Chain, but want an array? We can easily do that!");
 
             int[] array = chain.ToArray();

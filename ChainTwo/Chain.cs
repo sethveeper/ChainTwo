@@ -94,6 +94,14 @@ namespace ChainTwo
         }
         // End of Add(value) method
 
+        public void Edit(int index, T value)
+        {
+            this.Select(index);
+
+            this.selected.Value = value;
+        }
+        // End of Edit method
+
         public bool Iter(bool direct = true)
         {
             bool exit = false;
