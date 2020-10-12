@@ -13,8 +13,7 @@ namespace ChainTwo
 {
     public class Chain<T>
     {
-        #region Properties & Constructor
-        // (Usually I would make them separate sections, but there's not a lot here...)
+        #region Properties
 
         private Link<T> head;
         private Link<T> foot;
@@ -30,7 +29,7 @@ namespace ChainTwo
         // End of Get/Set-ers
 
         #endregion
-        // End of Properties & Constructor
+        // End of Properties
 
         #region Constructors
 
@@ -42,6 +41,20 @@ namespace ChainTwo
             this.length = 0;
         }
         // End of Default Constructor
+
+        public Chain(T[] array)
+        {
+            this.head = null;
+            this.foot = null;
+            this.selected = null;
+            this.length = 0;
+
+            foreach(T item in array)
+            {
+                this.Add(item);
+            }
+        }
+        // End of Array constructor
 
         #endregion
         // End of Constructors

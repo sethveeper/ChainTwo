@@ -25,24 +25,6 @@ namespace ConsoleSandbox
             Console.WriteLine("Successfully created a Chain!");
 
             PrintChain(intChain);
-
-            Console.WriteLine("Suppose you wanted to *remove* a value, though? Let's pick an index:");
-            int result = GetInt();
-
-            result = intChain.Remove(result);
-
-            Console.WriteLine("That index had a " + result + ". And now it's gone, see?");
-            Console.WriteLine("There are now " + intChain.Length + " items in the chain!");
-            PrintChain(intChain);
-
-            Console.WriteLine("We can also insert values at an arbitray point, if we like. Let's pick another index:");
-            result = GetInt();
-
-            int newValue = random.Next(max);
-            intChain.Insert(newValue, result);
-
-            Console.WriteLine("We added a " + newValue.ToString() + " to index " + result + ". Do you see it?");
-            PrintChain(intChain);
         }
         // End of Main method
 

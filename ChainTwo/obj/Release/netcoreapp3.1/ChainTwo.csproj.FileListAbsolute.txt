@@ -1,0 +1,8 @@
+D:\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.deps.json
+D:\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.dll
+D:\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.pdb
+D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.AssemblyInfoInputs.cache
+D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.AssemblyInfo.cs
+D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.csproj.CoreCompileInputs.cache
+D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.dll
+D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.pdb
