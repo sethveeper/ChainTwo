@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.deps.json
 D:\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.dll
 D:\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.pdb
@@ -6,3 +7,14 @@ D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.Assembl
 D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.csproj.CoreCompileInputs.cache
 D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.dll
 D:\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.pdb
+=======
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.deps.json
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.dll
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\bin\Release\netcoreapp3.1\ChainTwo.pdb
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.csprojAssemblyReference.cache
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.AssemblyInfoInputs.cache
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.AssemblyInfo.cs
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.csproj.CoreCompileInputs.cache
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.dll
+C:\Users\dj0803805\OneDrive - Ozarks Technical Community College\Documents\GitHub\ChainTwo\ChainTwo\obj\Release\netcoreapp3.1\ChainTwo.pdb
+>>>>>>> bf451bcda0bc0c27d8e59139a694a91a0b2a27a1

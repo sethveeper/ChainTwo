@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\GitHub\\ChainTwo\\ChainTwo\\ChainTwo.csproj": {}
+    "C:\\Users\\dj0803805\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\ChainTwo\\ChainTwo\\ChainTwo.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\GitHub\\ChainTwo\\ChainTwo\\ChainTwo.csproj": {
+    "C:\\Users\\dj0803805\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\ChainTwo\\ChainTwo\\ChainTwo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\GitHub\\ChainTwo\\ChainTwo\\ChainTwo.csproj",
+        "projectUniqueName": "C:\\Users\\dj0803805\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\ChainTwo\\ChainTwo\\ChainTwo.csproj",
         "projectName": "ChainTwo",
-        "projectPath": "D:\\Documents\\GitHub\\ChainTwo\\ChainTwo\\ChainTwo.csproj",
-        "packagesPath": "C:\\Users\\Seth Veeper\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\GitHub\\ChainTwo\\ChainTwo\\obj\\",
+        "projectPath": "C:\\Users\\dj0803805\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\ChainTwo\\ChainTwo\\ChainTwo.csproj",
+        "packagesPath": "C:\\Users\\dj0803805\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dj0803805\\OneDrive - Ozarks Technical Community College\\Documents\\GitHub\\ChainTwo\\ChainTwo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Seth Veeper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dj0803805\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
